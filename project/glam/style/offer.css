@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 125px;
+ 
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+#navbar .search {
+    width: 40%;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+  
+  
+}
+
+input[type="text"] {
+    text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+    padding: 5px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007663;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultsList {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    width: 30%;
+    top: 80px;
+    left: 240px;
+}
+
+#resultsList li {
+    padding: 5px;
+    background-color: #fff;
+    font-family: "Times New Roman", serif;
+    border-radius: 3px;
+
+} 
+
+#resultsList li a{
+    font-weight: 200;
+    color: #333;
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007663;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#navbar {
+    /* z-index: 1; */
+    top: 0;
+    box-shadow: 0 2px 15px rgb(99, 3, 3);
+    /* position: fixed; */
+    /* position: sticky; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: rgb(238, 224, 204);
+    border: 5px;
+    
+}
+
+
+
+
+
+
+.navbar-2 {
+    width: 50%;
+}
+.navbar-2 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+nav ul li {
+    /* display: flex; */
+    display: inline-block;
+    margin-right: 20px;
+
+    
+}
+
+nav ul li a{
+    
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(31, 46, 46);
+    font-family: Arial, sans-serif;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #007663;
+}
+
+
+
+.cart {
+    font-size: 30px;
+    margin: 2px;
+    margin-right: 10px;
+    
+}
+.cart a {
+    
+    color: black;
+}
+.cart a:hover{
+    color: #007663;
+}
+.sign {
+    font-size: 30px;
+    margin: 2px;
+    margin-right: 15px;
+}
+
+.sign a {
+    color: black;
+}
+.sign a:hover {
+    color: #007663;
+}
+
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.user ion-icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+/* ========================================our poster section=============================== */
+
+  .offer_page_1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid black;
+  }
+  
+  .background_1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: 100% auto;
+    background-image: url('../images/offer_posrter\ \(1\).jpg');
+    background-position: center;
+    filter: blur(3px); 
+
+  }
+  .offer_content_1 {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    top: 100px;
+    left: 35%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+  .offer_content_1 h1 {
+    font-weight: 100;
+    color: #000000; 
+    font-size: 50px;
+    width: 30%;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.offer_content_1 h1 span{
+    color: #e99518;
+    font-size: 70px;
+}
+
+
+/* ====================================== poster-2 ====================== */
+.offer_page_2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.background_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: 100% auto;
+    background-image: url('../images/offer_poster\(5\).jpg');
+    background-position: center;
+    filter: blur(3px); 
+  }
+
+  .offer_content_2 {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    top: 100px;
+    left: 35%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+/*========================================= main page ============================= */
+
+
+#container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 650px;
+    margin-top: 30px;
+
+  }
+
+  .box {
+    width: 100%;
+    height: 650px;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #left-btn,
+  #right-btn {
+    position: absolute;
+    top: 50rem;
+    font-size: 2em;
+    color: #000000;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  #left-btn { left: 10px; }
+  #right-btn { right: 10px; }
+
+
+
+
+
+  /*  ================================================ product items */
+.main_offer_page{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_offer_page .single_item_1{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 407px;
+}
+
+
+.main_offer_page .single_item_1 .image-container_1 {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/lip-liner-4.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+    transition: background-image 0.3s ease;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+
+.main_offer_page .single_item_2{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 407px;
+}
+
+
+.main_offer_page .single_item_2 .image-container_2 {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/eyeliner-4.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    align-items: center;
+    transition: background-image 0.3s ease;
+    border-top-right-radius: 13%;
+    border-top-left-radius: 13%;
+
+}
+
+
+.main_offer_page .single_item_1 h1, .single_item_2 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    font-weight: 100;
+    text-align: center;
+}
+
+.main_offer_page .single_item_3{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 407px;
+}
+
+
+.main_offer_page .single_item_3 .image-container_3 {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/foundation-3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    align-items: center;
+    transition: background-image 0.3s ease;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+
+.main_offer_page .single_item_4{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    width: 407px;
+}
+
+
+.main_offer_page .single_item_4 .image-container_4 {
+    width: 400px;
+    height: 400px;
+    background-image: url('../images/liquid-blush-4.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    align-items: center;
+    transition: background-image 0.3s ease;
+    border-top-right-radius: 13%;
+    border-top-left-radius: 13%;
+
+}
+
+
+.main_offer_page .single_item_3 h1, .single_item_4 h1 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.main_offer_page .price{
+    width: 90%;
+    /* height: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main_offer_page .price h3{
+    text-decoration: line-through;
+    font-size:30px;
+    padding-top: 20px;
+    margin-right: 5px;
+}
+
+.main_offer_page .price h2{
+    font-size:50px;
+}
+
+.main_offer_page button{
+    height: 50px;
+    width: 60%;
+    background-color: #000000;
+    font: #fff;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.last_nav {
+    width: 100%;
+    height: 280px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #FFF6FF;
+    color: #4B4453;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.last_nav-1 {
+    
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #4B4453;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+}
+
+.last_nav-1 h1 {
+    text-align: center;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+.last_nav-1 ul {
+
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.last_nav-1 ul li {
+    margin-top: 10px;      
+}
+
+.last_nav-1 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last_nav-2 {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+}
+
+.last_nav-2 h1 {
+    text-align: center;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.last_nav-2 ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.last_nav-2 ul li {
+    margin-top: 10px;
+    
+}
+
+.last_nav-2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last_icon {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: end;
+    font-size: 30px;
+    background-color: #4B4453;
+}
+
+
+.last_icon_cus {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last_icon_cus ._1, ._2, ._3, ._4 {
+    width: 50px;
+    color: #D5CABD;
+}
+.last_icon_cus ._1:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._2:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._3:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._4:hover{
+    cursor: pointer;
+    font-size: 35px;
+}

@@ -1,0 +1,858 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    height: 125px;
+ 
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+#navbar .search {
+    width: 40%;
+    justify-content: end;
+    display: flex;
+    align-items: end;
+  
+  
+}
+
+input[type="text"] {
+    text-transform: uppercase;
+    font-family: "Times New Roman", serif;
+    padding: 5px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007663;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultsList {
+    list-style-type: none;
+    text-transform: uppercase;
+    position: absolute;
+    width: 30%;
+    top: 80px;
+    left: 240px;
+}
+
+#resultsList li {
+    padding: 5px;
+    background-color: #fff;
+    font-family: "Times New Roman", serif;
+    border-radius: 3px;
+
+} 
+
+#resultsList li a{
+    font-weight: 200;
+    color: #333;
+    text-decoration: none;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007663;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+#navbar {
+    top: 0;
+    box-shadow: 0 2px 15px rgb(99, 3, 3);
+  
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    background-color: rgb(238, 224, 204);
+    border: 5px;
+    
+}
+
+
+
+
+
+
+.navbar-2 {
+    width: 50%;
+}
+.navbar-2 ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+    
+}
+
+nav ul li a{
+    
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(31, 46, 46);
+    font-family: Arial, sans-serif;
+}
+nav ul li a:hover,
+nav ul li a.active{
+    color: #007663;
+}
+
+
+
+.cart {
+    font-size: 30px;
+    margin: 2px;
+    margin-right: 10px;
+    
+}
+.cart a {
+    
+    color: black;
+}
+.cart a:hover{
+    color: #007663;
+}
+.sign {
+    font-size: 30px;
+    margin: 2px;
+    margin-right: 15px;
+}
+
+.sign a {
+    color: black;
+}
+.sign a:hover {
+    color: #007663;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.user ion-icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* ----------------- ===========================banner ===========================------------- */
+ 
+
+
+
+
+
+
+/* ================================= our-product =================================== */
+.our-product {
+    margin-top: 3px;
+    background-color: #2F4858;
+    border: 1px solid #007663;
+    border-radius: 20px;
+}
+.our-product h1{
+    /* color: #007663;  */
+    font-weight: 100;
+    color: #AF8D19;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding-top: 2%;
+    margin-bottom: 6PX;
+    text-transform: uppercase;
+}
+
+.our-product p {
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Garamond","Times New Roman",Times,serif;
+    font-size: 20px;
+    padding-bottom: 3%;
+
+}
+
+
+/* ----------------------------------- features----------------------------------- */
+
+#features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding: 40px 45px; */
+    /* padding: 40px 45px 80px 45px; */
+    margin-top: 3%;
+    margin-bottom: 3%;
+}    
+
+
+
+
+/* -------------------------------------------product 1------------------------------------------ */
+
+#features .fe-box {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(192, 36, 36);
+    text-align: left;
+    padding: 20px 15px;
+}
+
+#features .fe-box:hover{
+    box-shadow: 3px 3px 25px rgb(192, 36, 36);
+}
+
+#img-1 {
+    padding-bottom: 25px;
+}
+
+#features .fe-box h4 {
+    display: flex;
+    color: brown;
+    font-weight: 200;
+   font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#features .fe-box h4 #icon-1 {
+   
+    color: black;
+    /* display: block; */
+    margin-left: 44%;
+    font-size: 40px;
+   
+}
+#features .fe-box p {
+    font-size: 20px;
+
+}
+
+/* -------------------------------------------product 2------------------------------------------ */
+
+
+#features .eye {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(32, 28, 28);
+    text-align: left;
+    border: 1px solid;
+    padding: 25px 15px;
+}
+#features .eye:hover{
+    box-shadow: 3px 3px 20px rgb(32, 28, 28);
+
+}
+#img-2 {
+    padding: 25px;
+}
+#features .eye h4 {
+    display: flex;
+    color: brown;
+    font-weight: 200;
+   font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#features .eye h4 #icon-2 {
+    color: black;
+    display: block;
+    margin-left: 45%;
+    font-size: 40px;
+
+}
+#features .eye p {
+    font-size: 20px;
+}
+
+
+/* -------------------------------------------product 3------------------------------------------ */
+
+
+#features .fund {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(189, 89, 147, 0.808);
+    text-align: left;
+    border: 1px solid;
+    padding: 25px 15px;
+}
+#features .fund:hover{
+    box-shadow: 3px 3px 20px rgba(189, 89, 147, 0.808);
+}
+
+#features .fund h4 {
+    display: flex;
+    color: brown;
+    padding-top: 5px;
+    font-weight: 200;
+   font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#features .fund h4 #icon-3 {
+    color: black;
+    display: block;
+    margin-left: 33%;
+    font-size: 40px;
+
+}
+#features .fund p {
+    font-size: 20px;
+}
+
+/* -------------------------------------------product 4------------------------------------------ */
+
+#features .lotion {
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(32, 18, 32);
+    text-align: left;
+    border: 1px solid;
+    padding: 25px 15px;
+}
+#features .lotion:hover{
+    box-shadow: 3px 3px 20px rgb(32, 18, 32);
+}
+
+#img-4 {
+    padding-bottom: 25px;
+
+}
+
+#features .lotion h4 {
+    display: flex;
+    color: brown;
+    font-weight: 200;
+   font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#features .lotion h4 #icon-4 {
+    color: black;
+    display: block;
+    margin-left: 26%;
+    font-size: 40px;
+
+}
+#features .lotion p {
+    font-size: 20px;
+}
+
+#img-1:hover{
+    transform: scale(1.1);
+    
+}
+
+#img-2:hover{
+    transform: scale(1.1);
+}
+#img-3:hover{
+    transform: scale(1.1);
+}
+#img-4:hover{
+    transform: scale(1.1);
+}
+
+
+
+#buttons {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 10%;
+}
+#buttons a {
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(0, 145, 170);
+}
+#buttons:hover{
+    background-color: rgb(0, 145, 170);
+}
+#buttons a:hover{
+    color: rgb(255, 255, 255);
+} 
+
+
+/* ------------------=====================rating=============================----------------- */
+.checked {
+    color: orange;
+  }
+
+
+
+/* ========================================= advertisement_ img =================================== */
+
+
+/* .advertisement_page{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.ad_heading{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.ad_heading h1{
+    height: 70px;
+    width: 30%;
+    color: #9080C8;
+    font-weight: 300;
+    font-family: system-ui;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+.new_ar{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.new_ar img{
+    width: 10%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease o.3s;
+    cursor: pointer;
+}
+
+.new_ar img:hover{
+     width: 100%;
+     height: 500px;
+} */
+
+.banner-adver {
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    margin-top: 30px;
+  }
+  .adver{
+    white-space: nowrap;
+    animation: 60s slide infinite ease-out 0.1ms;
+  }
+  @keyframes slide {
+   from{
+      transform: translateX(0);
+   }
+   to{
+      transform: translateX(-100%);
+   }
+  }
+
+  .adver img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+/*  --------------- =====================offers==========================----------------------- */
+  .offer {
+    width: 100%;
+    background-image: url(../images/grouped-makeup-products-brushes.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    background-position: top center;
+    background-size: 100%;
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+
+  .dsc-offer{
+    position: absolute;
+    right: 1px;
+    margin-right: 250px;
+    margin-top: 5px;
+    height: 350px;
+    width: 40%;
+  }
+
+
+  .offer h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 1px;
+  }
+
+  .offer h1 span {
+    font-size: 90px;
+    /* color: aliceblue; */
+    color: #9080C8;
+    font-weight: 300;
+  }
+  .offer p{
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .offer .shop-now {
+    text-align: center;
+
+  }
+  .offer .shop-now a {
+    padding: 7px 7%;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid ;
+    font-weight: 100;
+    font-size: 30px;
+    cursor: pointer;
+}
+.offer .shop-now a:hover{
+    color: aliceblue;
+    background-color: black;
+    border: 3px solid aliceblue;
+   
+  }
+
+  .shop-now:hover{
+    transition: 1s;
+    transform: scale(1.2);
+  }
+
+
+
+
+/*------------------------  last navbars --------------------------------------*/
+
+.last_nav {
+    width: 100%;
+    height: 280px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #FFF6FF;
+    color: #4B4453;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.last_nav-1 {
+    
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #4B4453;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+}
+
+.last_nav-1 h1 {
+    text-align: center;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+.last_nav-1 ul {
+
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.last_nav-1 ul a {
+    text-decoration: none;
+    color: #4B4453;
+}
+
+.last_nav-1 ul li {
+    margin-top: 10px;      
+}
+
+.last_nav-1 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last_nav-2 {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+}
+
+.last_nav-2 h1 {
+    text-align: center;
+    font-weight: 200;
+    text-decoration: underline;
+}
+
+.last_nav-2 ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+.last_nav-2 ul a {
+    text-decoration: none;
+    color: #4B4453;
+}
+.last_nav-2 ul li {
+    margin-top: 10px;
+    
+}
+
+.last_nav-2 ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.last_icon {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: end;
+    font-size: 30px;
+    background-color: #4B4453;
+}
+
+
+.last_icon_cus {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.last_icon_cus ._1, ._2, ._3, ._4 {
+    width: 50px;
+    color: #D5CABD;
+}
+.last_icon_cus ._1:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._2:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._3:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+.last_icon_cus ._4:hover{
+    cursor: pointer;
+    font-size: 35px;
+}
+
+
+
+  
+
+
+/* ===========================================responsive=========================================== */
+
+
+/* @media(max-width:950px){
+    .offer {
+         width: 100%;
+         background-image: url(grouped-makeup-products-brushes.jpg); 
+         background-repeat: no-repeat;
+         height: 450px;
+         background-position: top center;
+         background-size: 100%;
+         padding: 0px;
+          
+       
+      }
+      
+.dsc-offer{
+align-items: center;
+margin-right: 150px; 
+
+}
+
+    
+ }
+
+ @media(max-width: 950px){   
+    .our-product {
+        background-color: #F3EADA;
+        margin-top: 2px;
+        border: 1px solid #007663;
+        border-radius: 10px;
+    }
+        .our-product h1{
+            color: #354B45;
+            letter-spacing: 1px;
+            text-align: center;
+            font-size: 40px;
+            font-family: HM Sans Semi Bold,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+            width: 100%;
+          
+        }
+        .our-product p {
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: "Garamond","Times New Roman",Times,serif;
+            font-size: 12px;
+            padding-bottom: 1%;
+        }
+    }    
+
+    @media(max-width:950px){
+    
+        #features {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+        
+        
+        #features .fe-box{
+            margin-bottom: 30px;
+        
+        }
+        #features .eye{
+            margin-bottom: 30px;
+        }
+        #features .fund{
+            margin-bottom: 30px;
+        }
+        #features .lotion{
+            margin-bottom: 30px;
+        }
+        
+        }
+
+        @media (max-width:1000px) {
+            .search {
+                margin-left: 40px;
+                justify-content: center;
+            }
+
+            .navbar-2 ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                height: 100vh;
+                width: 300px;
+                position: fixed;
+                top: 0;
+                right: 0px;
+                background-color: #fff;
+                color: #007663;
+                padding: 30px;
+            }
+        
+            .navbar-2 li {
+                margin-bottom: 25px;
+        
+            }    
+           
+
+            .navbar-2 .cut{
+                color: #333;
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                font-size: 35px;
+
+            }
+
+            .col-install{
+                display: none;
+            }
+            
+            #section-p1 .col {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 0px;
+                display: grid;
+                grid-template-columns: 200px;
+            }
+
+
+}
+@media (min-width:1000px) {
+    .cut{
+        display: none;
+    }
+} */
