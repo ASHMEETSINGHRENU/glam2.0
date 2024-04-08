@@ -29,7 +29,7 @@ II: CREATE TABLE  shipping_products (
 import shopping.sql they are located in login_system > shopping.sql
 
 
-3: for Run: http://localhost/glam/glam/login.php
+3: for Run: http://localhost/project/glam/login.php
 
 
 
